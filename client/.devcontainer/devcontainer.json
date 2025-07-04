@@ -1,0 +1,19 @@
+{
+  "name": "Angular + .NET",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:7.0",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    }
+  },
+  "postCreateCommand": "npm install -g @angular/cli",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "angular.ng-template",
+        "ms-dotnettools.csharp"
+      ]
+    }
+  },
+  "forwardPorts": [4200, 5000]
+}
