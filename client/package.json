@@ -6,8 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:client": "node dist/client/server/server.mjs"
+    "test": "ng test"
   },
   "prettier": {
     "overrides": [
@@ -21,15 +20,19 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/cdk": "^20.0.5",
     "@angular/common": "^20.0.0",
     "@angular/compiler": "^20.0.0",
     "@angular/core": "^20.0.0",
     "@angular/forms": "^20.0.0",
+    "@angular/material": "^20.0.5",
     "@angular/platform-browser": "^20.0.0",
     "@angular/platform-server": "^20.0.0",
     "@angular/router": "^20.0.0",
-    "@angular/ssr": "^20.0.5",
+    "@bluehalo/ngx-leaflet": "^20.0.0",
     "express": "^5.1.0",
+    "leaflet": "^1.9.4",
+    "ngx-leaflet": "^0.0.16",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"

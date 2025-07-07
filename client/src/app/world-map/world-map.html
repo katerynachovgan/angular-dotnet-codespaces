@@ -1,0 +1,32 @@
+<div class="world-map-layout" *ngIf="options">
+  <div class="trip-list">
+    <h2>Trips List</h2>
+    <mat-list>
+      <ng-container *ngFor="let trip of trips; let last = last">
+        <mat-list-item
+          (click)="zoomToTrip(trip)"
+          [class.selected]="trip === selectedTrip"
+          style="cursor: pointer;"
+        >
+          <div matLine>{{ trip.name }}</div>
+          <div matLine class="mat-line-secondary">
+            Date: {{ trip.date }} | Location: {{ trip.locationName }}
+          </div>
+        </mat-list-item>
+        <ng-container *ngIf="!last">
+          <mat-divider inset></mat-divider>
+        </ng-container>
+      </ng-container>
+    </mat-list>
+  </div>
+  <div class="map-container">
+    <div
+      leaflet
+      [leafletOptions]="options"
+      [leafletLayers]="markers"
+      (leafletMapReady)="onMapReady($event)"
+      style="height: 90vh;"
+    >
+    </div>
+  </div>
+</div>
