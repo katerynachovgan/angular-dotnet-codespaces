@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "/shP1OblBPE=",
+  "dgSpecHash": "gKXTHh99Vx2ToG5EjgLpim8VeVgUEV/0rhHeOO+PU5Uz+MnDMD1FmtWM1lY59QYwyWHQptB9m9Fy8HfIHQGhhg==",
   "success": true,
-  "projectFilePath": "/workspaces/angular-dotnet-codespaces/server/server.csproj",
+  "projectFilePath": "/home/runner/work/angular-dotnet-codespaces/angular-dotnet-codespaces/server/server.csproj",
   "expectedPackageFiles": [
-    "/home/codespace/.nuget/packages/microsoft.aspnetcore.openapi/8.0.16/microsoft.aspnetcore.openapi.8.0.16.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
-    "/home/codespace/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
-    "/home/codespace/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
-    "/home/codespace/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
-    "/home/codespace/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
+    "/home/runner/.nuget/packages/microsoft.aspnetcore.openapi/8.0.16/microsoft.aspnetcore.openapi.8.0.16.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
+    "/home/runner/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "/home/runner/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "/home/runner/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "/home/runner/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
   ],
   "logs": []
 }

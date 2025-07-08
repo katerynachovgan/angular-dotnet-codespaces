@@ -1,0 +1,17 @@
+# Build artifacts
+server/bin/
+server/obj/
+client/dist/
+client/node_modules/
+
+# IDEs
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
