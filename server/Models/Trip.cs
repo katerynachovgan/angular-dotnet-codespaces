@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace server.Models
 {
@@ -12,6 +13,7 @@ namespace server.Models
         
         [Required]
         [StringLength(100)]
+        [JsonPropertyName("locationName")]
         public string Destination { get; set; } = string.Empty;
         
         [Required]
